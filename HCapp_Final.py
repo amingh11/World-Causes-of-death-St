@@ -198,7 +198,7 @@ if menu_id== 'Home':
         display_app_header(main_txt='Introduction',
                    sub_txt="Welcome to the World Causes of Death Healthcare Analysis app! This Streamlit application has been developed as part of my individual project for the MSBA 350E Healthcare Analytics course.\n\n"
                            "In this analysis, I delve into the years 1990-2019 to conduct a comprehensive exploration of various trends and patterns related to causes of death. My primary focus is to gain insights into the overall global death trends and their changing patterns. Additionally, I aim to uncover the distinctions between disease-related deaths and non-disease causes. I conduct an in-depth analysis of disease-caused deaths, with a specific emphasis on communicable and non-communicable diseases.\n\n"
-                           "Furthermore, I present a straightforward examination of the effects of income on mortality across different regions of the world. To provide a more nuanced perspective, I concentrate on the year 2019 and classify countries into different categories for comparison.\n\n"
+                           "Furthermore, I present a straightforward examination of the effects of income on mortality.\n\n"
                            "By the end of this analysis, I will provide conclusions and recommendations, identifying potential areas for improvement and suggesting directions for further research.\n\n"
                            "Please explore the different sections of this app to gain valuable insights into the world causes of death and healthcare trends."
                    )
