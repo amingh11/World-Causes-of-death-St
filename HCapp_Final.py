@@ -742,7 +742,7 @@ if menu_id== 'Death and Income Levels':
     st.plotly_chart(fig14, use_container_width=True, label='fig14')
 
 
-    df_incomes = df.drop('Total Deaths', axis=1)
+    df_incomes = df_incomes.drop('Total Deaths', axis=1)
     # Grouping the DataFrame by 'Entity' and summing the values for each year and cause of death
     grouped_df = df_incomes.groupby(['Entity', 'Year']).sum().reset_index()
 
