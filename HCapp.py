@@ -15,9 +15,9 @@ import base64
 #######################################################################################################################################
 
 #DATA IMPORTS 
-df = pd.read_csv("/Users/aminghobar/Desktop/MSBA Summer 2023/Health Care Anlaytics/Individual Project/annual-number-of-deaths-by-cause.csv")
+df = pd.read_csv("annual-number-of-deaths-by-cause.csv")
 df_cod = pd.read_csv('/Users/aminghobar/Desktop/MSBA Summer 2023/Health Care Anlaytics/Individual Project/total-number-of-deaths-by-cause.csv')
-df1 = pd.read_csv('/Users/aminghobar/Desktop/MSBA Summer 2023/Health Care Anlaytics/Individual Project/annual-number-of-deaths-by-cause.csv')
+df1 = pd.read_csv('annual-number-of-deaths-by-cause.csv')
 
 #Importing the data 
 #dropping number of executions, not reliable since it contains a high number of null values 
