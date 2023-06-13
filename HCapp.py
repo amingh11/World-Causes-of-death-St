@@ -670,7 +670,7 @@ if menu_id== 'Disease vs Non-Disease':
         st.plotly_chart(fig10, use_container_width=True, label='fig.10')
 
 #####################################################################################################################################################################
-df_incomes = pd.read_csv('/Users/aminghobar/Desktop/MSBA Summer 2023/Health Care Anlaytics/Individual Project/Income world deaths.csv')
+df_incomes = pd.read_csv('Income world deaths.csv')
 df_incomes = df_incomes.drop(columns=['Code', 'Number of executions (Amnesty International)'])
 
 import plotly.subplots as sp
